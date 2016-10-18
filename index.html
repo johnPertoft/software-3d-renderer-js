@@ -1,0 +1,32 @@
+<html>
+<head>
+<link href="../../css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.6.1/lodash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gl-matrix/2.3.2/gl-matrix-min.js"></script>
+</head>
+<body>
+<div>
+<canvas id="canvas"></canvas>
+<div class="alert alert-info" 
+  id="explanation" 
+  style="position:absolute;left:0px;top:0px" 
+  onclick="this.style.display='none'">
+This is a simple software implementation of a computer graphics pipeline. 
+It sort of simulates what the driver for a GPU does.
+<br />
+<br />
+<strong>Click to remove.</strong>
+</div>
+</div>
+<script src="texture.js"></script>
+<script src="load-texture.js"></script>
+<script src="pixel.js"></script>
+<script src="triangle.js"></script>
+<script src="scene.js"></script>
+<script src="cornellbox.js"></script>
+<script src="controls.js"></script>
+<script src="rasterizer.js"></script>
+<script src="renderer.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
